@@ -20,15 +20,15 @@ export const date = async (args: string[]): Promise<string> => {
 };
 
 export const gui = async (args: string[]): Promise<string> => {
-  window.open('https://m4tt72.com', '_self');
+  window.open('https://gui.sapid-it.de', '_self');
 
   return 'Opening GUI version...';
 };
 
 export const email = async (args: string[]): Promise<string> => {
-  window.open('mailto:hi@nm4tt72.com');
+  window.open('mailto:till@sapid-it.de');
 
-  return 'Opening mailto:hi@m4tt72.com...';
+  return 'Opening mailto:till@sapid-it.de...';
 };
 
 export const vi = async (args: string[]): Promise<string> => {
@@ -45,7 +45,7 @@ export const emacs = async (args?: string[]): Promise<string> => {
 
 export const sudo = async (args?: string[]): Promise<string> => {
   setTimeout(function () {
-    window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+    window.open('https://www.youtube.com/watch?v=ItZloH0XLHc');
   }, 1000);
 
   return `Permission denied: unable to run the command '${args[0]}' as root.`;
